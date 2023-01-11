@@ -26,12 +26,12 @@
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
   $contact->smtp = array(
-    'host' => 'smtp.gmail.com',https://flourishing-hotteok-3397aa.netlify.app/assets/vendor/swiper/swiper-bundle.min.js.map
+    'host' => 'gmail.com',
     'username' => 'elex22.sust@gmail.com',
     'password' => 'mutgab11',
     'port' => '587'
   );
-
+  
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
